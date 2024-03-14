@@ -46,7 +46,7 @@ import {
         },
         labels: {
           style: {
-            colors: "#854d0e",
+            colors: "#bdbcb7",
             fontSize: "12px",
             fontFamily: "inherit",
             fontWeight: 400,
@@ -67,7 +67,7 @@ import {
       yaxis: {
         labels: {
           style: {
-            colors: "#854d0e",
+            colors: "#bdbcb7",
             fontSize: "12px",
             fontFamily: "inherit",
             fontWeight: 400,
@@ -76,7 +76,7 @@ import {
       },
       grid: {
         show: true,
-        borderColor: "#dddddd",
+        borderColor: "#4d4d4d",
         strokeDashArray: 5,
         xaxis: {
           lines: {
@@ -107,18 +107,6 @@ import {
           className="flex flex-col gap-4 md:flex-row md:items-center  rounded-b-lg"
         >
           
-          {/* <div class="bg-slate-900">
-            <Typography variant="h6" color="blue-gray">
-              Orders
-            </Typography>
-            <Typography
-              variant="small"
-              color="gray"
-              className="max-w-sm font-normal"
-            >
-              Statistics of the orders in past months
-            </Typography>
-          </div> */}
         </CardHeader>
         <CardBody className=" rounded-b-lg bg-gray-800">
           <Chart {...chartConfig} />

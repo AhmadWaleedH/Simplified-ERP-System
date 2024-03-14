@@ -13,7 +13,7 @@ const Navbar = () => {
  
   return ( 
     <div> 
-      <header className="flex flex-wrap z-50 w-full bg-gray-900 py-4"> 
+      <header className="flex flex-wrap fixed z-50 w-full bg-gray-900 py-4"> 
         <nav 
           className="max-w-[85rem] w-full mx-auto px-4" 
           aria-label="Global" 
@@ -47,14 +47,14 @@ const Navbar = () => {
             } hs-collapse overflow-hidden transition-all duration-300`} 
           > 
             <div className="flex flex-col gap-5 mt-5"> 
-              <button className="font-medium text-white border-b border-gray-700" aria-current="page"> 
+              <button onClick={toggleMenu} className="font-medium text-white border-b border-gray-700" aria-current="page"> 
                 <NavLink to='/'>Home</NavLink> 
               </button> 
-              <button className="font-medium text-gray-300 hover:text-white border-b border-gray-700"> 
-              <NavLink to='/orders'>Orders</NavLink> 
-              </button> 
-              <button className="font-medium text-gray-300 hover:text-white border-b border-gray-700"> 
+              <button onClick={toggleMenu} className="font-medium text-gray-300 hover:text-white border-b border-gray-700"> 
               <NavLink to='/products'>Products</NavLink> 
+              </button> 
+              <button onClick={toggleMenu} className="font-medium text-gray-300 hover:text-white border-b border-gray-700"> 
+              <NavLink to='/orders'>Orders</NavLink> 
               </button> 
             </div> 
           </div> 

@@ -3,9 +3,10 @@ import './App.css'
 import { Orders } from './Components/Orders'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Dashboard from './Components/Dashboard'
-import ProductsManagement from './Components/ProductsManagement'
+import Products from './Components/Products'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
+
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
           <Navbar/>
           <Routes>
             <Route path="/" element={<Dashboard/>} />
-            <Route path="/products" element={<ProductsManagement/>} />
             <Route path="/orders" element={<Orders/>} />
+            <Route path="/products" element={<Products/>} />
           </Routes>
           <Footer/>
         </Router>
