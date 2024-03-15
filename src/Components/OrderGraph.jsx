@@ -97,7 +97,7 @@ import {
     },
   };
    
-  export default function Graph() {
+  export default function OrderGraph() {
     return (
       <Card className="rounded-b-lg">
         <CardHeader

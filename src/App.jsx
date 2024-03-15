@@ -1,9 +1,9 @@
 
 import './App.css'
-import { Orders } from './Components/Orders'
+import OrdersManagement from './Components/OrdersManagement'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Dashboard from './Components/Dashboard'
-import Products from './Components/Products'
+import ProductsManagement from './Components/ProductsManagement'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 
@@ -11,23 +11,17 @@ import Footer from './Components/Footer'
 function App() {
   return (
     <>
-      <div className='bg-gray-900'>
+      <div className='w-[100%] bg-gray-900'>
         <Router>
           <Navbar/>
           <Routes>
             <Route path="/" element={<Dashboard/>} />
-            <Route path="/orders" element={<Orders/>} />
-            <Route path="/products" element={<Products/>} />
+            <Route path="/products" element={<ProductsManagement/>} />
+            <Route path="/orders" element={<OrdersManagement/>} />
           </Routes>
           <Footer/>
         </Router>
       </div>
-      
-
-
-
-
-
     </>
   )
 }

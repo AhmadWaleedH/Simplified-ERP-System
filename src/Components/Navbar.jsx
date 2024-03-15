@@ -13,14 +13,14 @@ const Navbar = () => {
  
   return ( 
     <div> 
-      <header className="flex flex-wrap fixed z-50 w-full bg-gray-900 py-4"> 
+      <header className="flex flex-wrap fixed z-50 sm:w-full bg-gray-900 py-4"> 
         <nav 
-          className="max-w-[85rem] w-full mx-auto px-4" 
+          className="max-w-[94rem] w-full mx-auto px-4" 
           aria-label="Global" 
         > 
           <div className="flex items-center justify-between"> 
             <a className="flex-none text-xl font-semibold text-white" href="#"> 
-              ERS
+              anweshadmin
             </a> 
             <div> 
               <button 
