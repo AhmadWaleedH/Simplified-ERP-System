@@ -33,7 +33,13 @@ This repository contains a front-end application built with React.js, Tailwind C
 - Please ensure that you have a stable internet connection while running the application (for images that are hosted online).
 
 This command starts the development server. Once the server is running, you can access the application in your web browser at http://localhost:5173.
-
+  
+## Building for production
+- To build the application for production, use the following command:
+   
+   ```bash
+   npm run build
+   
 # Simplified ERP System
 
 This system consists of the following pages:
