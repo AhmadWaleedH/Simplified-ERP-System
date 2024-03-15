@@ -33,16 +33,29 @@ This repository contains a front-end application built with React.js, Tailwind C
 - Please ensure that you have a stable internet connection while running the application (for images that are hosted online).
 
 This command starts the development server. Once the server is running, you can access the application in your web browser at http://localhost:5173.
-
+  
+## Building for production
+- To build the application for production, use the following command:
+   
+   ```bash
+   npm run build
+   
 # Simplified ERP System
 
 This system consists of the following pages:
 - **Dashboard** - Provides an overview of the system's features.
 - **Products Management** - Allows for the management of product listings.
 - **Orders Management** - Facilitates viewing and handling orders.
-- **Orders Calendar View** - A calendar interface displaying orders based on their expected delivery dates.
 
- Below are the steps to how to use this website and explore its interactiveness
+ 
+
+## Objectives
+- Developed a user-friendly interface for managing key aspects of a business.
+- Utilized React for building modular components and managing application state.
+- Implemented navigation between different sections of the ERP system using React Router.
+- Created a responsive design suitable for both desktop and mobile devices.
+
+Below are the steps to how to use this website and explore its interactiveness
 
   ## Dashboard
 - **Display of key metrics** - Total products, Total revenue, Total ratio, Total users, Total visits, Total profit .
@@ -66,8 +79,10 @@ This system consists of the following pages:
   https://github.com/anwesha2240/Simplified-ERP-System/assets/95692315/28822376-3f1a-40df-854d-e1a0be3a5dfb
   
 -  Dropdown Navigation Bar at top of the page
-   
+    ![Screenshot](public/images/Screenshot8.jpg) 
 -  User- friendly and fully responsive.
+  
+   <img src="public/images/Screenshot9.jpg" alt="Image 1" style="width: 25%;">
 
 ## Products Management
 - **Display of categories** of products the system deals in.
