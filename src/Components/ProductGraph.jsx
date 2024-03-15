@@ -7,7 +7,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import Chart from "react-apexcharts";
-
+//Bar Graph showing available stocks of each category every month
 const chartConfig = { 
   type: "bar", 
   height: 400, 

@@ -17,7 +17,7 @@ export function OrderList(){
         event.preventDefault();
         const formData = new FormData(event.target);
         const data = Object.fromEntries(formData.entries());
-        console.log(data); // You can replace this with your logic to handle the submitted data 
+        console.log(data); 
         toggleModal(); // Optionally close the modal on form submit 
     };
 
@@ -37,7 +37,7 @@ export function OrderList(){
         <>
         {/* Listing of orders, including details like order ID, customer name, order date, and status */}
         <div className="p-4">
-                    {/* Listing */}
+                    
                     <div class="border border-gray-700 dark:bg-gray-800 relative overflow-x-auto shadow-md rounded-lg">
                         <div className='flex'>
                             <h1 class="p-6 text-2xl font-extrabold dark:text-yellow-600">Order Listings<small class="ms-2 font-normal text-gray-500 dark:text-yellow-600">of the above product</small></h1>
@@ -67,7 +67,7 @@ export function OrderList(){
                                 </tr>
                             </thead>
                             <tbody>
-
+                                {/* Updating order status */}
                                 {
                                     OrderData.map((order) => {
                                         return (
@@ -118,7 +118,7 @@ export function OrderList(){
                                                         </option>
                                                     </select>
                                                 </td>
-
+                                                {/* Viewing order details */}
                                                 <td class="flex items-center px-6 py-4">
                                                     <button onClick={toggleModal} class="font-bold text-xl text-gray-600 dark:text-white hover:underline"><CiViewList /></button>
 
@@ -145,10 +145,7 @@ export function OrderList(){
                                                                     </div>
                                                                     <div className="px-6 py-4">
                                                                         <h6 class="text-l font-bold text-stone-400 ">Product ID:       F56789</h6>
-                                                                        {/* <h6 class="text-l  text-stone-400 ">Stock:       1000</h6>
-                                                                <h6 class="text-l text-stone-400 ">Material:    Cotton</h6>
-                                                                <h6 class="text-l text-stone-400 ">Colors:      Green,White,Blue</h6>
-                                                                <h6 class="text-l text-stone-400 ">Size:         XS,S,M,L,XL</h6> */}
+                                                                        
                                                                         <h6>
                                                                             Order Details:<br></br>
                                                                             Order ID: ABC123456789<br></br>
@@ -184,6 +181,7 @@ export function OrderList(){
                                                             </div>
                                                         </div>
                                                     )}
+                                                    {/* Deleting order details */}
                                                     <button onClick={() => handleDelete(order.id)} class="font-bold text-xl text-red-600 dark:text-red-500 hover:underline ms-3"><MdDeleteOutline /></button>
                                                 </td>
                                             </tr>

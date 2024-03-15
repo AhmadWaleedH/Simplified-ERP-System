@@ -1,11 +1,11 @@
 export function Categories() {
     return (
    <>     
-<blockquote class="text-5xl font-semibold text-gray-900 dark:text-white p-4">
-    <p className=" font-semibold text-gray-700 py-6">Categories</p>
-</blockquote>
+            <blockquote class="text-5xl font-semibold text-gray-900 dark:text-white p-4">
+                <p className=" font-semibold text-gray-700 py-6">Categories</p>
+            </blockquote>
 
-
+        {/* Display of categories like fashion, furniture, electronics,.. that the system deals in */}
         <div class="grid grid-cols-1 md:grid-cols-6  gap-4 rounded-lg">
             <div className="shadow-lg shadow-cyan-500/70 hover:shadow-cyan-500/50 rounded-lg relative ">
                 <div className="absolute">

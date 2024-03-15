@@ -30,7 +30,6 @@ return(
         </div>
         <div class="flex items-left justify-between flex-col">
             <span class="text-3xl font-bold text-yellow-600">Rs. 999</span>
-            {/* <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a> */}
             <span class="text-l font-bold text-stone-400 ">Product ID:       F56789</span>
             <span class="text-l  text-stone-400 ">Stock:       1000</span>
             <span class="text-l text-stone-400 ">Material:    Cotton</span>

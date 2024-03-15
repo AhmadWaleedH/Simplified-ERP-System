@@ -1,6 +1,7 @@
 export function HeroSection(){
     return(
         <div>
+            {/* Statistics regarding orders */}
         <div class="border border-yellow-600 p-4 bg-white md:p-8 dark:bg-yellow-800 rounded-lg" id="stats" role="tabpanel" aria-labelledby="stats-tab">
             <dl class="grid max-w-screen-xl grid-cols-2 gap-8 p-4 mx-auto text-yellow-900 sm:grid-cols-3 xl:grid-cols-6 dark:text-white sm:p-8">
                 <div class="flex flex-col items-center justify-center">

@@ -16,7 +16,7 @@ const AddProduct= () => {
     setIsModalOpen(!isModalOpen); 
   }; 
  
-  //function to handle form submit 
+  //Function to handle form submit 
   const handleSubmit = (event) => { 
     event.preventDefault(); 
  
@@ -37,8 +37,10 @@ const AddProduct= () => {
   const [category1, setCategory1] = useState(""); 
   const [cost, setCost] = useState(0); 
   const [stocks,setStocks] = useState(0);
+
   return ( 
     <div> 
+      {/* Add product button whic opens modal */}
       <button 
         onClick={toggleModal} 
         className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" 

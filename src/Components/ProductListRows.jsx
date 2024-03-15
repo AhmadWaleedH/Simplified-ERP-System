@@ -10,8 +10,9 @@ const ProductListRows = ({ product, onDelete }) => {
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
   };
-
+  {/* Listing of product details like name,category,price,stocks */}
   return (
+    
     <tr
       key={product.id}
       class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"

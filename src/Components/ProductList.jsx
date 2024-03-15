@@ -1,6 +1,4 @@
 import { Link, useNavigate } from "react-router-dom";
-import { CiEdit } from "react-icons/ci";
-import { MdDeleteOutline } from "react-icons/md";
 import React from 'react';
 import ProductData from "../assets/ProductData";
 import AddProduct from "./AddProduct";
@@ -21,6 +19,7 @@ export function ProductList() {
 
     return (
         <>     
+        
             <div class="border border-gray-700 dark:bg-gray-800 relative overflow-x-auto shadow-md rounded-lg">
                 <div className='flex justify-between'>
                     <h1 class="p-6 text-2xl font-extrabold dark:text-gray-400">Product Listings<small class="ms-2 font-normal text-gray-500 dark:text-gray-600">of this current month</small></h1>
@@ -54,10 +53,11 @@ export function ProductList() {
                             </th>
                         </tr>
                     </thead>
+                    {/* Deleting product details */}
                     <tbody>
                         {ProductData.map((product) => (
                                 <ProductListRows product={product} onDelete={handleDelete}/>
-                            ))}
+                        ))}
 
 
                     </tbody>

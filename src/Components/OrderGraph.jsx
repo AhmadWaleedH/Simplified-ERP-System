@@ -5,7 +5,7 @@ import {
     Typography,
   } from "@material-tailwind/react";
   import Chart from "react-apexcharts";
-   
+   //Line Graph that shows total orders every month
   const chartConfig = {
     type: "line",
     height: 557,

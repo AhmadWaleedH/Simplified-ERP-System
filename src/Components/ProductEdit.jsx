@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ProductData from "../assets/ProductData";
 import { useNavigate } from "react-router-dom";
-
+//Edit Product Details
 const ProductEditListRows = ({ theProducts }) => {
   const [isModalOpen, setIsModalOpen] = useState(true);
 
