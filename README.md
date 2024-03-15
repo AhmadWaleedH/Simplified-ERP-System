@@ -55,9 +55,18 @@ This system consists of the following pages:
     <img src="public/images/Responsive1.jpg" alt="Image 1" style="width: 25%;">
     <img src="public/images/Responsive2.jpg" alt="Image 2" style="width: 25%;">
   </div>
+- Interactive
+  
+  https://github.com/anwesha2240/Simplified-ERP-System/assets/95692315/e5f701df-6572-45e3-85c0-6ed8880e69f4
+
+
 ## Navbar
 -  **Functionality** - Quick navigation to the Products and Orders management pages.
+  
+  https://github.com/anwesha2240/Simplified-ERP-System/assets/95692315/28822376-3f1a-40df-854d-e1a0be3a5dfb
+  
 -  Dropdown Navigation Bar at top of the page
+   
 -  User- friendly and fully responsive.
 
 ## Products Management
@@ -68,6 +77,9 @@ This system consists of the following pages:
 - **A list of products** with details such as name, category, price, and stock quantity, using mock data (ProductData).
 -  ![Screenshot](public/images/Screenshot4.jpg) 
 - **Functionalities** - Add, edit, and delete products.
+
+https://github.com/anwesha2240/Simplified-ERP-System/assets/95692315/8aa0dbc2-c622-4086-ae21-01504157c9af
+  
 - User- friendly and fully responsive.
    <div style="display: flex; ">
     <img src="public/images/Responsive3.jpg" alt="Image 1" style="width: 25%;">
@@ -83,6 +95,11 @@ This system consists of the following pages:
 - **A list of orders**, including details like order ID, customer name, order date, and status, using mock data.
    ![Screenshot](public/images/Screenshot7.jpg) 
 - **Functionalities** - Allow viewing of order details, updating the order status, and deletion of orders.
+
+  
+https://github.com/anwesha2240/Simplified-ERP-System/assets/95692315/21fef6c9-3fe1-4e7b-8c6a-308e8ed64839
+
+
 - User-friendly and fully responsive.
    <div style="display: flex;">
     <img src="public/images/Responsive6.jpg" alt="Image 6" style="width: 25%;">
