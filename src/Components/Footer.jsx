@@ -9,7 +9,7 @@ const Footer = () => {
           <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"> 
             © 2024{" "} 
             <a href="#" class="hover:underline"> 
-              Anwesha Saha 
+              Ahmad Waleed Hamid 
             </a> 
             . All Rights Reserved. 
           </span> 

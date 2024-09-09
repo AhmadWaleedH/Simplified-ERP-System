@@ -20,7 +20,7 @@ const Navbar = () => {
         > 
           <div className="flex items-center justify-between"> 
             <a className="flex-none text-xl font-semibold text-white" href="#"> 
-              anweshadmin
+              AhmadWaleedHamid
             </a> 
             <div> 
               <button 
